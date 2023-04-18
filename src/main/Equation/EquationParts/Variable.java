@@ -1,4 +1,4 @@
-package com.company.Equation.EquationParts;
+package main.Equation.EquationParts;
 
 import java.util.Objects;
 

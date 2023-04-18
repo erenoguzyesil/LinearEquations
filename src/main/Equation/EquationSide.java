@@ -1,6 +1,6 @@
-package com.company.Equation;
+package main.Equation;
 
-import com.company.Equation.EquationParts.*;
+import main.Equation.EquationParts.*;
 import java.util.HashMap;
 
 public class EquationSide {
