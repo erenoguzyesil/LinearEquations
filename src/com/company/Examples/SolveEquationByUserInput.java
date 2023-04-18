@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Examples;
 
 import com.company.Equation.*;
 import com.company.Equation.EquationParts.*;
