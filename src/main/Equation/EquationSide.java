@@ -47,8 +47,16 @@ public class EquationSide {
         this(coefficients, new double[] { constant });
     }
 
+    public EquationSide(Coefficient[] coefficients) {
+        this(coefficients, new double[] { 0 });
+    }
+
     public EquationSide(double constant) {
         this(new Coefficient[] { }, constant);
+    }
+
+    public EquationSide(double[] constants) {
+        this(new Coefficient[] { }, constants);
     }
 
     public HashMap<Variable, Coefficient> getCoefficients() {
