@@ -1,7 +1,7 @@
-package main.Examples;
+package Examples;
 
-import main.Equation.*;
-import main.Equation.EquationParts.*;
+import Equation.*;
+import Equation.EquationParts.*;
 
 public class AComplicatedEquation {
     public static void main(String[] args) {

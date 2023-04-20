@@ -1,12 +1,12 @@
-package main.Equation;
+package Equation;
 
-import main.Equation.EquationParts.*;
+import Equation.EquationParts.*;
 import java.util.ArrayList;
 
 public class Equation {
-    private EquationSide side1;
-    private EquationSide side2;
-    private EquationSide[] sides;
+    private final EquationSide side1;
+    private final EquationSide side2;
+    private final EquationSide[] sides;
 
     public Equation(EquationSide side1, EquationSide side2) {
         this.side1 = side1;

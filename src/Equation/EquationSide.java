@@ -1,10 +1,10 @@
-package main.Equation;
+package Equation;
 
-import main.Equation.EquationParts.*;
+import Equation.EquationParts.*;
 import java.util.HashMap;
 
 public class EquationSide {
-    private HashMap<Variable, Coefficient> coefficients = new HashMap<>();
+    private final HashMap<Variable, Coefficient> coefficients = new HashMap<>();
     private double constant = 0;
 
     /**

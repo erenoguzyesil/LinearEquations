@@ -1,8 +1,8 @@
-package main.Equation.EquationParts;
+package Equation.EquationParts;
 
 public class Coefficient {
     private double coefficientValue;
-    private Variable variable;
+    private final Variable variable;
 
     public Coefficient(double coefficientValue, Variable variable) {
         this.coefficientValue = coefficientValue;

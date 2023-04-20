@@ -1,9 +1,9 @@
-package main.Equation.EquationParts;
+package Equation.EquationParts;
 
 import java.util.Objects;
 
 public class Variable {
-    private String name;
+    private final String name;
     private double value;
 
     public Variable(String name) {
